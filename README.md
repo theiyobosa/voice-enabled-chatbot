@@ -7,9 +7,7 @@ The chatbot also responds using speech. All of the models used here were Open So
 
 Here's a quick demo of the program in action.
 
-<video controls>
-  <source src="demo.mp4" type="video/mp4">
-</video>
+https://github.com/theiyobosa/voice-enabled-chatbot/assets/61636469/65351201-5204-4bab-957a-308a1fc22c63
 
 # Tools
 
