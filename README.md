@@ -3,6 +3,14 @@
 This is a program that allows a user to use voice recognition to interact with a chatbot in English.
 The chatbot also responds using speech. All of the models used here were Open Source models.
 
+# Quick Demo
+
+Here's a quick demo of the program in action.
+
+<video controls>
+  <source src="demo.mp4" type="video/mp4">
+</video>
+
 # Tools
 
 - LLM: [LLaMA 2](https://ai.meta.com/llama/)
@@ -38,7 +46,7 @@ Run the program by passing in the `--model-path` argument, that indicates the pa
 python3 main.py --model-path <model path>
 ```
 
-There are other arguments that can be passed in, you can get more details on the other parameters by running:
+There are other arguments that can be passed in, including arguments that can help you run the models faster by utilizing your GPU. You can get more details on the other parameters by running:
 
 ```
 python3 main.py -h

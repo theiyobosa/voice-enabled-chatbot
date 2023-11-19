@@ -48,7 +48,7 @@ parser.add_argument(
     type=str,
     choices=['cpu', 'cuda', 'mps'],
     required=False,
-    default='mps',
+    default='cpu',
     help='The device to run the text to speech model on, could either be cpu, \
         cuda or mps.'
 )
@@ -81,7 +81,7 @@ tts = TextToSpeech(device=args.tts_device)
 stt = SpeechToText(stt_model=args.stt_model,
                    device=args.stt_device)
 
-llm = LLM(model_path=args.model_path, #"../LLMs/llama/llama-2-13b-chat/ggml-model-q4_0.bin",
+llm = LLM(model_path=args.model_path,
           context_size=args.context_size)
 
 audio_filename = 'output.csv'
